@@ -1,0 +1,271 @@
+body{
+    background-color: rgba(75, 47, 9, 0.979);
+    margin: 20px 10px 20px 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.card2{
+    background-color: rgb(223, 203, 166);
+}
+
+.card1{
+    background-color: rgb(223, 203, 166);
+}
+
+.card{
+    background-color: rgb(223, 203, 166);
+    padding: 20 15 20 15;
+}
+
+/*  تنسيق كلاس الهيدر */
+.hedar{
+    background-color: rgb(255, 255, 255);
+    background-size: 100px;
+    padding: 40px 20px 50px 20px;
+    clear: left;
+}
+
+/* تنسيق الصورة */
+.hedar img{
+    float:right;
+    margin-top: 0px;
+    padding: 9px 0px 9px 0px;
+}
+
+/* تنسيق العلامات المرجعية المرتبة */
+.book{
+    font-size: 20px;
+    color:black;
+    padding: 15px 15px 15px 15px;
+    clear: left;
+    overflow:visible;
+}
+.book:hover{
+    background-color: rgb(173, 124, 46);
+}
+
+/* تنسيق الايقونات تبع التوصل */
+.icons{
+    margin: 10px 0px 5px 0px;
+    float:right;
+        }
+  .x{
+    background-size: 3%;
+    background-color: rgb(5, 5, 5);
+   }
+   .w{
+    background-size: 3%;
+    background-color: rgb(21, 163, 40);
+   }
+   .I{
+    background-size: 3%;
+    background-color: rgb(145, 44, 114);
+   }
+   .s{
+   background-size: 3%;
+    background-color: rgb(216, 231, 6);
+   }
+  
+  p:hover{
+    background-size: 3%;
+    background-color: rgb(75, 73, 82);
+    }
+  p{
+    font-size: 2rem;
+    color: white;
+    float: right;
+     }
+
+  /* تنسيق الفيديو */
+  .video{
+    display: inline;
+   /* background-color: rgb(0 0 0 / 40%);  خلفية للفيديو شفاف لاكن فيه مشكلة الايقونات تنزل تحت */
+    height: 106%;
+    background-size: 50px;
+    margin-top: 0;
+    margin-right: 0px;
+   
+  }
+  
+  .back-video{
+      position: absolute;
+      bottom: 0;
+      z-index: -10;
+      display:block;
+      content: "";
+      position: absolute;
+      top:-90 ;
+      overflow: hidden;
+      }
+      video{
+          clear: left;
+          width: 1282px;
+          height: 1100px;
+          margin-left: 0%;
+          clear: left;
+           }
+
+           /* تنسيق الكلام الي ف الفيديو */
+           .text{
+            
+            background-color: rgba(219, 215, 215, 0.4);
+            background-color: rgb(0 0 0 / 40%);
+            overflow: hidden;
+            text-align-last: center;
+            color:rgb(253, 243, 243);
+            text-align: center;
+          }
+
+           /* تنسيق صورة ماذا نريد */
+          .what1{
+            height: 50%;
+            width: 40%;
+            float: right;
+            clear: left;
+          }
+          .what1 img{
+            float: right;
+          }
+
+          /* تنسيق الكلام ماذا نريد */
+          .what2{
+            text-align:right;
+            color: #333;
+            background-size: 100px; 
+        }
+        /* تنسيق h2  في ماذا نريد */
+          .what3{
+            text-align: right;
+            color: rgb(255, 255, 255);
+          }
+
+          /* تنسيق كلام مشاريعنا */
+          .youcan{
+            color: rgb(255, 255, 255);
+            text-align: center;
+          }
+
+          /* تنسيق المشاريع */
+          div.card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            }
+           div.card img {
+                         width: 20%;
+                         height: 10%;
+                         border: 2px solid #ff3d0036;
+                         border-radius: 13px; 
+                         box-shadow: 4px 7px 7px 0px #00000042;
+                         cursor: pointer;
+                         margin: 10px ;
+                         transition: 400ms;
+                       }
+           div.card img:hover {
+                         filter: grayscale(1);
+                         transform: scale(1.03);
+                       }
+                       input[type=text], textarea {
+                        width: 100%;
+                        padding: 12px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                        margin-bottom: 16px;
+                       }
+            
+                    /* تنسيق زر الإرسال */
+                    input[type=submit] {
+                        background-color: #04AA6D;
+                        color: white;
+                        padding: 12px 20px;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                    }
+            
+                    input[type=submit]:hover {
+                        background-color: #45a049;
+                    }
+                    /* تنسيق كلام شركاء  */
+                    .contante{
+                        color: rgb(71, 55, 24);
+                        text-align: center;
+                        padding: 15 15 15 15;
+                      } 
+                      /* تنسيق مربع الشركاء  مع الصور*/
+                      .img0{
+                        margin: 0px;
+                        padding: 0;
+                        box-sizing: border-box;
+                        overflow: hidden;
+                      }
+                      body.img0{
+                        background-color: rgb(15, 90, 65);
+                        overflow: hidden;
+                      }
+                      .img0{
+                        width: 100vw;
+                        max-width: 96%; /* التحكم في  الطول */
+                        height: 350px;/* التححكم في العرص  */
+                        position: absolute; 
+                        transform: translate(-5%,-5%);
+                        margin-left: 6%;
+                       border-top-left-radius:  -9px;
+                       border: 6px solid rgba(255, 255, 255, 0.678);
+                       border-radius: 4px ; 
+                        box-shadow:0px 20px 30px #181817;/* لون الظل */
+                      }
+                      .imges{
+                        width: 100%;
+                        display: flex;
+                        animation:moslider 10s infinite;
+                      }
+                      @keyframes moslider {
+                      0%{transform: translate(0);}
+                      25%{transform: translate(0);}
+                      30%{transform: translate(-100%);}
+                      40%{transform: translate(-100%);}
+                      50%{transform: translate(-200%);}
+                      60%{transform: translate(-200%);}
+                      70%{transform: translate(-300%);}
+                      80%{transform: translate(-300%);}
+                      90%{transform: translate(-400%);}
+                      100%{transform: translate(-400%);}
+                      }
+                      img.img0{
+                        height: 300px;
+                        width: 100%;
+                        clear: left;
+                      }
+
+                      .footer{
+                        background-color: rgb(250, 249, 248);
+                        color: #181817;
+                        text-decoration: none;
+                        cursor:cell;
+                        text-align: center;                   
+                         padding: 10 20 10 20;
+                       }
+                       #myscr{
+                        background-color: rgb(192, 153, 98);
+                        color:#272727;;
+                        text-align: center;
+                        padding: 10px;
+                       }
+                       #myscr3{
+                        background-color: rgb(192, 153, 98);
+                        color: #272727;
+                        text-align: center;
+                        padding: 8px;
+                       }
+                       #myscr4{
+                        background-color: rgb(192, 153, 98);
+                        color: #272727;
+                        text-align: center;
+                        padding: 8px;
+                       }
